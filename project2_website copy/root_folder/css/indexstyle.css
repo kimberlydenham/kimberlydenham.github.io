@@ -1,0 +1,289 @@
+@charset "UTF-8";
+#container {
+	background-color: #bfbcb4;
+	height:1160px;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;	
+}
+
+
+@font-face {
+	font-family: "Cabin-Regular copy"; src:url(../fonts/Cabin-Regular%20copy.otf);
+}
+
+
+html{
+	margin:auto;
+	width:1020px;
+}
+
+body {
+	font-family:Cabin-Regular copy;
+	vertical-align:middle;
+	margin:0px auto;	
+}
+
+div{
+	font-family: Cabin-Regular copy;
+	margin: 0px auto;
+}
+
+#background {
+	width:1020px;
+	height:800px;
+	position:absolute;
+	background-color: #bfbcb4;
+
+}
+#homeimage {
+	position: absolute;
+	margin-top: 0px;
+	margin-left:0px;
+	height: 360px;
+	width: 100%;
+}
+
+#slideshow{
+	float: left;
+	position: fixed;
+	padding: 0;
+	z-index:1;
+}
+
+
+#logo {
+	margin-left:30px;
+	margin-top:365px;
+	position: absolute;
+}
+
+ul#nav li a {
+	text-decoration: none;
+	padding: 5px 0;
+	width: 100px;
+	color: #836E65;
+}
+
+ul#nav {
+  margin-left: 380px;
+  margin-top: 400px;
+  list-style:none;
+  width: 395px;
+  position:absolute;
+  font-size:small;
+}
+
+ul#nav li {
+  display:inline;
+  margin-left: 10px;
+}
+
+#donate2 {
+	height:81px;
+	width:100px;
+	margin-left: 886px;
+	margin-top:360px;
+	position: absolute;
+}
+
+#browntexture {
+	/* [disabled]background-image:url(../images/browntexture.png); */
+	background-color: #362D2B;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 1020px;
+	margin-top: 455px;
+	position: absolute;
+}
+
+
+#hours {
+	height:115px;
+	width:115px;
+	margin-top:42px;
+	margin-left:30px;
+	position: absolute;
+}
+
+#directions {
+	height:115px;
+	width:115px;
+	margin-top:42px;
+	margin-left:160px;
+	position:absolute;
+}
+
+#ourstaff {
+	height:115px;
+	width:115px;
+	margin-top:42px;
+	margin-left:290px;
+	position:absolute;
+}
+
+#ourmission {
+	height:20px;
+	width:120px;
+	margin-top:35px;
+	margin-left:470px;
+	position:absolute;
+	color:#EF4C30;
+}
+
+#mission {
+		height: auto;
+		width:520px;
+		margin-top:65px;
+		margin-left:470px;
+		position:absolute;
+		color:#C6C2B7;
+}
+
+#pie {
+	height:205px;
+	width:210px;
+	margin-top:755px;
+	margin-left:180px;
+	position:absolute;
+}
+
+#howdonation {
+	height:50px;
+	width:123px;
+	margin-top:783px;
+	margin-left:30px;
+	position:absolute;
+	color:#836E65;
+}
+
+#donations {
+	height:57px;
+	width:125px;
+	margin-top:845px;
+	margin-left:30px;
+	position:absolute;
+	color:#836E65;
+}
+
+#register {
+	/* [disabled]height: 35px; */
+	/* [disabled]width:200px; */
+	/* [disabled]margin-top: 670px; */
+	/* [disabled]margin-left: 430px; */
+	/* [disabled]position: absolute; */
+	/* [disabled]color: #836E65; */
+}
+
+
+#toddler {
+	height:186px;
+	width:168px;
+	margin-top:700px;
+	margin-left:430px;
+	position:absolute;
+}
+
+	
+#hike {
+	height:186px;
+	width:168px;
+	margin-top:700px;
+	margin-left:618px;
+	position:absolute;
+}
+
+#trips {
+	height:186px;
+	width:168px;
+	margin-top:700px;
+	margin-left:806px;
+	position:absolute;
+}
+
+#register a {
+	text-decoration: none;
+	color: #836E65;
+}
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 100px;}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	margin-top: -100px; /* negative value of footer height */
+	height: 100px;
+	clear:both;
+	background-color:#B4B2AB;
+}
+ul#footernav li a {
+	text-decoration: none;
+	padding: 5px 0;
+	width: 100px;
+	color: #836E65;
+}
+
+ul#footernav {
+  margin-left: -53px;
+  margin-top: 20px;
+  list-style:none;
+  width: 425px;
+  position:absolute;
+}
+
+ul#footernav li {
+  display:inline;
+  margin-left: 45px;
+}	
+
+#signup {
+	 height:20px;
+	 width:212px;
+	 margin-top:59px;
+	 margin-left:30px;
+	 position:absolute;
+	 color: #836E65;
+ }
+ 
+ #email {
+	 height:26px;
+	 width:232px;
+	 margin-top:55px;
+	 margin-left:237px;
+	 position:absolute;
+ }
+ #signupbtn {
+	 height:26px;
+	 width:101px;
+	 margin-top:55px;
+	 margin-left:490px;
+	 position:absolute;
+ }
+ #socialmedia {
+	 height:46px;
+	 width:230px;
+	 margin-top:27px;
+	 margin-left:755px;
+	 position:absolute;
+ }
+	
+#socialmedia a	 {
+	margin-left:6px;
+}
+ 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+
