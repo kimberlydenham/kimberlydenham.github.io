@@ -1,128 +1,108 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="en">
 <head>
-<title>Kimberly Denham's Portfolio</title>
-<meta charset="UTF-8">
-<meta name="description" content="My portfolio" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<link href="css/main.css" rel="stylesheet" type="text/css">
+  <title>Parallax Scrolling Tutorial</title>
+  <meta name="description" content="How to create a parallax scrolling effect with jQuery, HTML and CSS">
+  <meta name="author" content="Richard Shepherd, Smashing Magazine">
 
-		<script src="js/modernizr.custom.37797.js"></script> 
-		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
-		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
-		<script src="js/parallax.js"></script>
+  <!-- Mmmmm, Google Web Fonts. That's a paddlin'. -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster+Two:700&v2' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
 </head>
 
-<body>
+<body onLoad="MM_preloadImages('images/behanceo.png','images/pinteresto.png','images/twittero.png','images/linkedino.png')">
 
-<div id="wrapper">
-			
-			<header id="branding">
-				<h1>Kimberly Denham</h1>
-			</header>
-            
-            <nav id="primary">
-				<ul>
-					<li>
-						<h1>About Me</h1>
-						<a class="about-me" href="#about-me">View</a>
-					</li>
-					<li>
-						<h1>My Services</h1>
-						<a class="myservices" href="#myservices">View</a>
-					</li>
-					<li>
-						<h1>Find me</h1>
-						<a class="myportfolio" href="#myportfolio">View</a>
-					</li>
-					<li>
-						<h1>Thanks</h1>
-						<a class="thanks" href="#thanks">View</a>
-					</li>
-				</ul>
-			</nav>
-			
-			<div id="content">
-				<article id="about-me">
-					<header>
-						<h1>About Me</h1>
-					</header>
-                    <p>I am a student at the Savannah College of Art and Design, preparing for admission into the Master&rsquo;s Program for Web Design. I received an undergraduate degree in History at the University of Scranton. As a developing business professional, poised to build on my strong design, sales and marketing background, I'm exceptionally organized and disciplined, and possess well-developed interpersonal skills. I have excellent web-based computer skills and as a member of the Creative Cloud, I'm proficient in a number of Adobe programs. </p>
-					<nav class="next-prev">
-						<hr />
-						<a class="next myservices" href="#myservices">Next</a>
-					</nav>
-				</article>
-				
-				<article id="myservices">
-					<header>
-						<h1>My Services</h1>
-					</header>
-					<p>My services include:<br>
-                     <em>Website design</em> <br>
-                     <em>Logo &amp; Branding</em><br>
-                     <em>	Custom Monograms </em><br>
-                     <em>Wedding stationary</em> <br>
-                	   
-                     Please feel free to contact me if you're interested in any of my services. 
-                      </p>
-					<nav class="next-prev">
-						<a class="prev myportfolio-me" href="#myportfolio-me">Prev</a>
-						<hr />
-						<a class="next myportfolio" href="#myportfolio">Next</a>
-					</nav>
-				</article>
-				
-				<article id="myportfolio">
-					<header>
-						<h1>My Portfolio</h1>
-					</header>
-					<p>My portfolio pieces include illustrations, web design, logo and branding work, and print design. Feel free to browse the library. 
-					  <nav class="next-prev">
-					    <a class="prev myservices" href="#myservices">Prev</a>
-				      </nav>
-					</p>
-					<nav class="next-prev">
-						<hr />
-						<a class="next thanks" href="#thanks">Next</a>
-					</nav>
-				</article>
-				
-				<article id="thanks">
-					<header>
-						<h1>Thanks</h1>
-					</header>
-					<p>Come back and visit again! </p>
-					<nav class="next-prev">
-						<a class="prev myportfolio" href="#myportfolio">Prev</a>
-						<hr />
-					</nav>
-				</article>
-			</div>
-			
-			<!-- Parallax foreground -->
-			<div id="parallax-bg3"></div>
-			
-			<!-- Parallax  midground clouds -->
-			<div id="parallax-bg2">
-				<img src="img/cloudsmaller.png" alt="cloud" name="bg2-1" id="bg2-1"/>
-				<img id="bg2-2" src="img/cloudsmallest.png" alt="cloud"/>
-				<img id="bg2-3" src="img/cloudsmallest.png" alt="cloud"/>
-				<img id="bg2-4" src="img/cloudsmallest.png" alt="cloud"/>
-				<img id="bg2-5" src="img/cloudsmallest.png" alt="cloud"/>
-			</div>
-			
-			<!-- Parallax  background clouds -->
-			<div id="parallax-bg1">
-				<img id="bg1-1" src="img/cloudsmallest.png" alt="cloud"/>
-				<img id="bg1-2" src="img/cloudsmallest.png" alt="cloud"/>
-				<img id="bg1-3" src="img/cloudsmallest.png" alt="cloud"/>
-				<img id="bg1-4" src="img/cloudsmaller.png" alt="cloud"/>
-			</div>
-</div>
+  <div id="main" role="main">
 
+	<!-- Section #1 / Intro -->
+	<section id="first" class="story" data-speed="8" data-type="background">    	
+		<div class="kdlogo" data-type="sprite" data-offsetY="100" data-Xposition="50%" data-speed="-2"></div>		
+		<article>
+
+		<img src="images/logo.png" width="200" height="220" alt=""/><br>
+        <a href="http://www.behance.net/kimberlydenham" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('behance','','images/behanceo.png',1)"><img src="images/behance.png" alt="behance" width="47" height="46" id="behance"></a><a href="http://www.pinterest.com/kimberlydenham/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/pinteresto.png',1)"><img src="images/pinterest.png" alt="pinterest" width="47" height="46" id="Image3"></a><a href="https://twitter.com/KimberlyDenham" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter','','images/twittero.png',1)"><img src="images/twitter.png" alt="twitter" width="47" height="46" id="twitter"></a><a href="http://www.linkedin.com/pub/kimberly-denham/24/425/359" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('linkedin','','images/linkedino.png',1)"><img src="images/linkedin.png" alt="Linkedin" width="47" height="46" id="linkedin"></a></article>
+	</section>
+
+	<!-- Section #2 / Background Only -->
+	<section id="second" class="story" data-speed="4" data-type="background">
+		<article>
+			<h2>A little bit about myself</h2>
+		    	<p>My name is Kimberly Denham and I am a student at the Savannah College of Art and Design, preparing for admission into the Master’s Program for Web Design. I received an undergraduate degree in History at the University of Scranton. As a developing business professional, poised to build on my strong design, sales and marketing background, I'm exceptionally organized and disciplined, and possess well-developed interpersonal skills. I have excellent web-based computer skills and as a member of the Creative Cloud, I'm proficient in a number of Adobe programs. </p>
+		    	<p><a href="#portfolio">Jump Straight to my Portfolio</a></p>		
+		</article>
+	</section>
+	
+	<!-- Section #3 / Photos -->
+	<section id="third" class="story" data-speed="6" data-type="background" data-offsetY="250">    	
+		<div class="photograph" data-type="sprite" data-offsetY="1250" data-Xposition="25%" data-speed="2"></div>
+    	<article>
+    		<h2>Logo Design</h2>
+	    	<div class="textbox">    	
+		    	<p>These are two of my favorite branding projects completed during my time at SCAD. One is for Oatland Island Wildlife Center, a conservation center located a few miles outside Savannah. The other was for a restaurant I frequented in the historic district of Richmond, VA named La Grotta. </p>
+		    	<p><a href="#logo">Logo Design Portfolio</a></p>
+		    </div>
+    	</article>
+	</section>	
+	
+
+	<!-- Section #4 / HTML5 Video -->
+	<section id="fourth" class="story" data-speed="8" data-type="background" data-offsetY="250">
+    	<article>
+    		<h2>Website Design</h2>
+	    	<div class="textbox">    	
+		    	<p>I started learning how to code during my time as an employee with Rails Machine, Inc. Beginning with Javascript made learning html and CSS much easier.</p>
+		    	<p>During my summer semester at SCAD, our class with tasked with redesigning a restaurant website. I chose Blue Turtle Bistro for my assignment. I took my own photos and I also changed the color of their logo to match the aesthetic of both the restaurant and the new website. Both of my newest websites can be accessed on the web: kimberlydenham.github.io/blueturtle <br>
+	    	    		kimberlydenham.github.io/oatlandwildlife    	</p>
+		    	<p><a href="#webdesign">Web Design Portfolio</a></p>
+	    	</div>
+    	</article>
+	</section>	
+
+	<!-- Section #5 / The End-->
+	<section id="theend" class="story" data-speed="8" data-type="background" data-offsetY="250">    	
+		<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2"></div>
+        
+        	
+	</section>
+	
+</div> <!-- // End of #main -->
+
+
+
+  <!-- Our Javascript, starting with jQuery -->
+<script src='js/libs/jquery-1.6.1.min.js'></script>
+<script src="js/script.js"></script>
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");
+  <![endif]-->
 
 </body>
 </html>
