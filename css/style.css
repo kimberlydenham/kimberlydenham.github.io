@@ -40,7 +40,7 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
 /* HTML5 Video */
 
-#fourth article {  background: url(../images/grain.png) repeat #333; margin-left: 60%; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#fourth article {  background: url(../images/grain.png) repeat #333; margin-left: 2%; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 60px; }
 #fourth article p { width: 300px; margin: 50px 0; }
 
 
