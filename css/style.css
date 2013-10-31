@@ -21,7 +21,7 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
 /* Introduction */
 #first .kdlogo { background: url(../images/logo1.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#first article { width: 100%; top: 575px; position: absolute; text-align: center; }
+#first article { width: 100%; top: 500px; position: absolute; text-align: center; }
 #first article p,
 #first article a { color: #ccc; }
 #first article a { text-decoration: underline; }
