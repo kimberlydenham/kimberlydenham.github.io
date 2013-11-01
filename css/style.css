@@ -24,7 +24,7 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 #first article { width: 100%; top: 500px; position: absolute; text-align: center; }
 #first article p,
 #first article a { color: #ccc; }
-#first article a { text-decoration: underline; }
+#first article a { text-decoration: none; }
 #first article a:hover { color: #fff; }
 
 /* Background Only */
@@ -43,6 +43,9 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 #fourth article {  background: url(../images/grain.png) repeat #333; margin-left: 2%; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 60px; }
 #fourth article p { width: 300px; margin: 50px 0; }
 
+a{
+	text-decoration:none;
+}
 
 /* The End */
 #theend .byebye { background: url(../images/findme.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
