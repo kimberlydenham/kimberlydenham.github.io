@@ -21,12 +21,20 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
 /* Introduction */
 #first .kdlogo { background: url(../images/logo1.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#first article { width: 100%; top: 500px; position: absolute; text-align: center; }
+#first article { width: 100%; top: 400px; position: absolute; text-align: center; }
 #first article p,
 #first article a { color: #ccc; }
 #first article a { text-decoration: none; }
 #first article a:hover { color: #fff; }
 
+#media{
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:10px;
+	
+	}
+	
+	
 /* Background Only */
 #second { padding: 50px 0;}
 #second article { background: url(../images/grain.png) repeat #333; color: #fff; width: 445px; margin-left: 600px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
