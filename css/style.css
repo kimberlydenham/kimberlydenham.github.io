@@ -22,9 +22,10 @@ article h2 { font-family: 'Sansita One', cursive; font-size:3.125em; margin: 25p
 	margin-left:5px;
 	margin-right:5px;
 	margin-bottom:10px;
-	
 	}
-	
+img {
+	max-width:100%;
+	}
 	
 /* Background Only */
 #second { padding: 35% 0;}
@@ -47,5 +48,13 @@ a{
 
 /* The End */
 #theend .byebye { background: url(../images/findme.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+/*medium resolution-------------*/
+@media screen and (max-width: 1024px) {
+	width:100%;
+	
+	
+	
+	}
 
 
