@@ -1,18 +1,18 @@
 
 
-article h2 { font-family: 'Sansita One', cursive; font-size:3.125em; margin: 25px 0; line-height: 1.125em; }
+article h2 { font-family: 'Sansita One', cursive; font-size:3.125em; margin-top:10%; margin-left:5%; line-height: 1.125em; }
 
 .story { height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 
 #first { background:#ffffff 50% 0 no-repeat fixed; }
 #second { background:url(../images/robot-1296x864.png) 50% 0 no-repeat fixed; }
-#fourth { background: url(../images/website.png) 50% 0 no-repeat fixed; }
 #third { background: url(../images/coasters.png) 50% 0 no-repeat fixed; }
+#fourth { background: url(../images/website.png) 50% 0 no-repeat fixed; }
 #theend { background-color:#878585 50% bottom no-repeat fixed; }
 
 /* Introduction */
 #first .kdlogo { background: url(../images/logo1.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#first article { width: 100%; top: 40%; position: absolute; text-align: center; }
+#first article { width: 100%; top: 400px; position: absolute; text-align: center; }
 #first article p,
 #first article a { color: #ccc; }
 #first article a { text-decoration: none; }
@@ -23,38 +23,75 @@ article h2 { font-family: 'Sansita One', cursive; font-size:3.125em; margin: 25p
 	margin-right:5px;
 	margin-bottom:10px;
 	}
-img {
-	max-width:100%;
-	}
+
+
 	
 /* Background Only */
-#second { padding: 35% 0;}
-#second article { background: url(../images/grain.png) repeat #333; color: #fff; width: 20%; margin-left: 31%; padding: .5% 1%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#second article p { margin-bottom: 25px; }
+#second { padding: 50px 0;}
+#second article { background: url(../images/grain.png) repeat #333; color: #fff; width: 445px; margin-left: 25%; margin-top: 525px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second article p { margin: 2%; margin-bottom:10%;  }
 
 
 /* Photograph */
-#third article {  background: url(../images/grain.png) repeat #333; color: #fff; padding: .5% 1%; margin: 5% 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#third article p { width: 300px; margin-bottom: 25px; }
+#third article {  background: url(../images/grain.png) repeat #333; color: #fff; padding: 10px 20px; width: 300px; margin: 5% 0 0 51%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#third article p { margin: 2%; margin-bottom:10%;  }
 
 /* HTML5 Video */
 
-#fourth article {  background: url(../images/grain.png) repeat #333; margin-left: 2%; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 60px; }
-#fourth article p { width: 300px; margin: 50px 0; }
+#fourth article {  background: url(../images/grain.png) repeat #333; width: 300px; margin-left: 10%; margin-top:200px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 60px; }
+#fourth article p { margin: 2%; margin-bottom:10%; }
 
 a{
 	text-decoration:none;
 }
 
 /* The End */
-#theend .byebye { background: url(../images/findme.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#theend .byebye { background: url(../images/findme.png) 40% 100px no-repeat fixed; height: 1000px; padding:	 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 
-/*medium resolution-------------*/
+
+	
+/*smaller resolution-------------*/
+@media screen and (max-width: 650px) {
+	
+	#second {
+		padding: 0;
+		background-size:auto; 
+		}
+	#second article {
+		margin-left:5%;
+		width:80%;
+		margin-right:5%;
+		margin-top:70%
+		}
+	#third {
+		padding: 0; 
+		}
+	#third article {
+		margin-left:5%;
+		width:80%;
+		margin-top:30%;
+		margin-right:5%;
+		}
+	#fourth {
+		padding: 0; 
+		}
+	#fourth article {
+		margin-left:2.5%;
+		width:80%;
+		margin-right:5%;
+		}
+		
+	
+/* Larger ----------- */
 @media screen and (max-width: 1024px) {
-	width:100%;
-	
-	
-	
-	}
+	#second {
+		padding:5px 0; 
+		}
+
+
+
+
+
+}
 
 
