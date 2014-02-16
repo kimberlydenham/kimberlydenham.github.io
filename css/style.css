@@ -18,6 +18,9 @@ article h2 { font-family: 'Sansita One', cursive; font-size:3.125em; margin-top:
 #first article a { text-decoration: none; }
 #first article a:hover { color: #fff; }
 
+
+
+
 #media{
 	margin-left:5px;
 	margin-right:5px;
@@ -47,6 +50,9 @@ a{
 
 /* The End */
 #theend .byebye { background: url(../images/findme.png) 40% 100px no-repeat fixed; height: 1000px; padding:	 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+
+
 
 
 	
@@ -81,17 +87,6 @@ a{
 		margin-right:5%;
 		}
 		
-	
-/* Larger ----------- */
-@media screen and (max-width: 1024px) {
-	#second {
-		padding:5px 0; 
-		}
-
-
-
-
-
-}
+	}
 
 
