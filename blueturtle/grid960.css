@@ -35,7 +35,7 @@ body{
 
 div {
 	font-family: Champagne and Limousines copy;
-	font-size: large;
+	font-size: 1em;
 }
 
 
@@ -44,8 +44,13 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	color:#242E4F;
+
+}
+
 .address{
-	font-size:16px;
+	font-size:.75em;
 	padding-left:5px;
 	padding-right:5px;
 	text-align:center;
@@ -58,6 +63,8 @@ a{
 .home {
 	margin-top: 120px;
 	position:fixed;
+	font-size: .85em;
+
 }
 
 
@@ -73,6 +80,10 @@ a{
 	padding-right: 17px;
 	
 }
+
+
+
+
 h1{
 	font-weight: bold;
 	text-shadow: 1px 1px 2px #999999;
@@ -93,18 +104,23 @@ h3{
 .menu {
 	margin-top: 150px;
 	position: fixed;
+	font-size: .85em;
 }
 
 
 .bar{
 	margin-top: 180px;
 	position: fixed;
+	font-size: .85em;
+
 	
 }
 
 .events{
 	margin-top: 210px;
 	position: fixed;
+	font-size: .85em;
+
 }
 
 .address{
