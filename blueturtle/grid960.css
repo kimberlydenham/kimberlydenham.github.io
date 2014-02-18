@@ -183,18 +183,58 @@ td{
 	padding-bottom:3px;
 	padding-top:4;
 }
+#google {
+	position:relative;
+}
+#google img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#google img.top:hover{
+	opacity: 0;
+}
 
 #facebook {
 	padding-top:0px;
 	padding-right: 15px;
 	padding-left: 289px;
-
+	position:relative;
+}
+#facebook img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
-.twitter-follow-button {
+#facebook img.top:hover{
+	opacity: 0;
+}
+
+#twitter {
 	padding-top:0px;
 	padding-left: 15px;
 	padding-bottom:2px;
+	position:relative;
+}
+#twitter img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#twitter img.top:hover{
+	opacity: 0;
 }
 
 
