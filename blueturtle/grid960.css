@@ -78,6 +78,10 @@ a:hover{
 	padding-top: 0px;
 }
 
+.grid_10{
+	background-color: rgba(235,235,235,0.92);
+}
+
 .turtleLogo{
 	float: right;
 	padding-top: 17px;
