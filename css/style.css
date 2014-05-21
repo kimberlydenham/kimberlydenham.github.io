@@ -1,10 +1,26 @@
 
 
-article h2 { font-family: 'Sansita One', cursive; font-size:3.125em; margin-top:10%; margin-left:5%; line-height: 1.125em; }
+article h2 {
+	font-family: 'Sansita One', cursive; 
+	font-size:3.125em; 
+	margin-top:10%; 
+	margin-left:5%; 
+	line-height: 1.125em;
+	}
 
-.story { height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+.story { 
+	height: 1000px; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	position: relative; 
+	margin: 0 auto; 
+	border-top: 1px solid rgba(255,255,255,0.3); 
+	border-bottom: 1px solid rgba(0,0,0,0.4); 
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
 
-#first { background:#ffffff 50% 0 no-repeat fixed; }
+#first { background:url(../images/bgImg.jpg) 50% 0 no-repeat fixed; }
 #second { background:url(../images/robot-1296x864.png) 50% 0 no-repeat fixed; }
 #third { background: url(../images/coasters.png) 50% 0 no-repeat fixed; }
 #fourth { background: url(../images/website.png) 50% 0 no-repeat fixed; }
