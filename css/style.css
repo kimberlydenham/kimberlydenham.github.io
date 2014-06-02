@@ -21,9 +21,9 @@ article h2 {
 	}
 
 #first { background:url(../images/bgImg.jpg) 50% 0 no-repeat fixed; }
-#second { background:url(../images/robot-1296x864.png) 50% 0 no-repeat fixed; }
-#third { background: url(../images/coasters.png) 50% 0 no-repeat fixed; }
-#fourth { background: url(../images/website.png) 50% 0 no-repeat fixed; }
+#second { background:rgba(252,231,216,1.00) 50% 0 no-repeat fixed; }
+#third { background: rgba(219,235,233,1.00)50% 0 no-repeat fixed; }
+#fourth { background:rgba(115,204,215,1.00) 50% 0 no-repeat fixed; }
 #theend { background-color:#878585 50% bottom no-repeat fixed; }
 
 /* Introduction */
