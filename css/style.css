@@ -84,8 +84,67 @@ ul#nav li.link-work a {
 
 }
  
+ul.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul.social li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin: 20px 5px;
+  vertical-align: top;
+}
+ul.social li a {
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-indent: -9999px;
+  border: none !important;
+  font-size: 14px;
+  text-align: center;
+}
+ul.social li a:hover {
+  background: transparent !important;
+}
+ul.social li a:hover img {
+  height: 30px !important;
+  margin-bottom: 25px;
+}
+ul.social li.link-twitter a {
+  background: url(/images/icon_twitter.svg) no-repeat center 0px;
+  background-size: 37px;
+  color: #28aae1 !important;
+}
+ul.social li.link-dribbble a {
+  background: url(/images/icon_dribbble.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #ea4c89 !important;
+}
+ul.social li a:hover {
+  text-indent: 0;
+}
+ul.social li.link-instagram a {
+  background: url(/images/icon_instagram.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #326189 !important;
+}
+ul.social li.link-mail a {
+  background: url(/images/icon_mail.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #dd4951 !important;
+}
+ul.social li.link-behance a {
+  background: url(/images/icon_behance.svg) no-repeat center 0px;
+  background-size: 30px;
+  color: #005CFF !important;
+} 
+ 
+ 
 
-#first { background:url(../images/bgImg.jpg) 50% 0 no-repeat fixed; height:660px; }
+#first { background:url(../images/bgImg1.jpg) 50% 0 no-repeat fixed; height:660px; }
 #second { background:rgba(252,231,216,1.00) 50% 0 no-repeat fixed; height:600px; }
 #third { background: rgba(219,235,233,1.00)50% 0 no-repeat fixed; height:600px; }
 #fourth { background:rgba(115,204,215,1.00) 50% 0 no-repeat fixed; height:600px;}
