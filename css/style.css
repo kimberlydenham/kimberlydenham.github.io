@@ -123,14 +123,15 @@ ul.social li.link-dribbble a {
   background-size: 30px;
   color: #ea4c89 !important;
 }
-ul.social li a:hover {
-  text-indent: 0;
-}
 ul.social li.link-instagram a {
   background: url(/images/icon_instagram.svg) no-repeat center 0px;
   background-size: 30px;
   color: #326189 !important;
 }
+ul.social li a:hover {
+  text-indent: 0;
+}
+
 ul.social li.link-mail a {
   background: url(/images/icon_mail.svg) no-repeat center 0px;
   background-size: 30px;
