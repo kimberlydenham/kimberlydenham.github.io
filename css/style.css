@@ -99,8 +99,8 @@ ul.social li {
 }
 ul.social li a {
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   text-indent: -9999px;
   border: none !important;
   font-size: 14px;
@@ -245,9 +245,10 @@ a{
 	
 /*smaller resolution-------------*/
 @media screen and (max-width: 650px) {
+
 #nav{
-	 height:auto;
-	 width:auto;
+	 height:60px;
+	 width:100%;
 	 background-color:rgba(255,255,255,.7);
 	 position: fixed;    
 	 z-index: 10;
@@ -262,6 +263,12 @@ ul#nav {
   text-align: center;
 }
 
+
+ul.social li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
 	
 	#second {
 		padding: 0;
