@@ -23,7 +23,7 @@ article h2 {
 	}
 #nav{
 	 height:auto;
-	 width:7%;
+	 width:80px;
 	 background-color:rgba(255,255,255,.7);
 	 position: fixed;    
 	 z-index: 10;
@@ -265,7 +265,9 @@ ul#nav {
 ul#nav li{
 	margin-top:5px;
 	}
-
+.kdlogo{
+	display:none;
+	}
 ul.social li a {
   display: block;
   width: 30px;
