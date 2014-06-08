@@ -100,7 +100,7 @@ ul.social li.link-behance a {
 	margin: 0 auto; 
 	}
 .kdlogo_mobile{
-	display:none;
+	visibility:hidden;
 	}
 #first article { 
 	width: 100%; 
@@ -197,12 +197,16 @@ ul.social li a {
 #first .kdlogo{
 	visibility: hidden;
 	}
-.kdlogo_mobile{
-	visibility: visible !important;
-	background: 50% 80px no-repeat fixed;
-	padding: 0;
+#first .kdlogo_mobile { 
+	visibility:visible;
+	background: url(../images/logo1.png) 50% 80px no-repeat fixed; 
+	padding: 0; 
+	width: 100%; 
+	position: relative; 
 	margin: 0 auto; 
-	}
+	}	
+	
+
 	
 	#second {
 		padding: 0;
