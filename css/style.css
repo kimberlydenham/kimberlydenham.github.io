@@ -184,10 +184,11 @@ a{
 /*smaller resolution-------------*/
 @media screen and (max-width: 650px) {
 
+
 ul.social li a {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
 }
 	
 	#second {
