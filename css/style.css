@@ -195,12 +195,13 @@ ul.social li a {
 }
 
 #first .kdlogo{
-	display:none;
+	visibility: hidden;
 	}
-#first .kdlogo_mobile{
-	background: url(/images/logo1.png) 50% 80px no-repeat fixed;
+.kdlogo_mobile{
+	visibility: visible !important;
+	background: 50% 80px no-repeat fixed;
 	padding: 0;
-	margin:margin: 0 auto; 
+	margin: 0 auto; 
 	}
 	
 	#second {
