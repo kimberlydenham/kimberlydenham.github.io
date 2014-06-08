@@ -185,7 +185,7 @@ a{
 @media screen and (max-width: 650px) {
 
 
-ul.social li a {
+ul.social li a img {
   display: block;
   width: 10px;
   height: 10px;
