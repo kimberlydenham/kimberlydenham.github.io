@@ -90,7 +90,7 @@ ul.social li.link-behance a {
 
 /* Introduction */
 #first .kdlogo { 
-	background: url(../images/logo1.png) 50% 100px no-repeat fixed; 
+	background: url(../images/logo1.png) 50% 80px no-repeat fixed; 
 	min-height: 1000px; 
 	padding: 0; 
 	margin: 0; 
@@ -98,6 +98,9 @@ ul.social li.link-behance a {
 	max-width: 1920px; 
 	position: relative; 
 	margin: 0 auto; 
+	}
+.kdlogo_mobile{
+	display:none;
 	}
 #first article { 
 	width: 100%; 
@@ -190,6 +193,15 @@ ul.social li a {
   width: 30px;
   height: 30px;
 }
+
+#first .kdlogo{
+	display:none;
+	}
+#first .kdlogo_mobile{
+	background: url(/images/logo1.png) 50% 80px no-repeat fixed;
+	padding: 0;
+	margin:margin: 0 auto; 
+	}
 	
 	#second {
 		padding: 0;
