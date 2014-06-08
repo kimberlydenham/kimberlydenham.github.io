@@ -262,7 +262,9 @@ ul#nav {
   list-style:none;
   text-align: center;
 }
-
+ul#nav li{
+	margin-top:5px;
+	}
 
 ul.social li a {
   display: block;
