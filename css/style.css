@@ -21,69 +21,7 @@ article h2 {
 	border-bottom: 1px solid rgba(0,0,0,0.4); 
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	}
-#nav{
-	 height:auto;
-	 width:80px;
-	 background-color:rgba(255,255,255,.7);
-	 position: fixed;    
-	 z-index: 10;
-	 top:80px;
-	 }
 
-ul#nav {
-  margin-left: 0;
-  padding: 0;
-  margin-top: 60px;
-  list-style:none;
-  text-align: center;
-}
-
-ul#nav li {
-  display:inline-block;
-  margin:0;
-  padding: 0;  
-  margin: 20px 5px;
-  vertical-align: top;
-}
-ul#nav li a {
-  display: block;
-  width: 70px;
-  height: 45px;
-  text-indent: -9999px;
-  border: none !important;
-  font-size: 14px;
-  text-align: center;
-  
-}
-ul#nav li a:hover{
- 	background: transparent !important;
-    color: #74ccd7;
-}	 
-
-ul#nav li a:hover img {
-  height: 30px !important;
-}
-
-ul#nav li a:hover {
-  text-indent: 0;
-}
-ul#nav li.link-home a {
-  background: url(/images/icon_home_over.png) no-repeat center 0px;
-  background-size: 30px;
-
-}
-ul#nav li.link-about a {
-  background: url(/images/icon_about.png) no-repeat center 0px;
-  background-size: 30px;
-
-}
-
-ul#nav li.link-work a {
-  background: url(/images/icon_work.png) no-repeat center 0px;
-  background-size: 30px;
-
-}
- 
 ul.social {
   list-style: none;
   margin: 0;
@@ -246,28 +184,6 @@ a{
 /*smaller resolution-------------*/
 @media screen and (max-width: 650px) {
 
-#nav{
-	 height:60px;
-	 width:100%;
-	 background-color:rgba(255,255,255,.7);
-	 position: fixed;    
-	 z-index: 10;
-	 top:3px;
-	 }
-
-ul#nav {
-  margin-left: 0;
-  padding: 0;
-  margin-top: 3px;
-  list-style:none;
-  text-align: center;
-}
-ul#nav li{
-	margin-top:5px;
-	}
-.kdlogo{
-	display:none;
-	}
 ul.social li a {
   display: block;
   width: 30px;
