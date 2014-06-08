@@ -47,8 +47,7 @@ ul.social li a:hover {
   background: transparent !important;
 }
 ul.social li a:hover img {
-  height: 30px !important;
-  margin-bottom: 25px;
+  height: 30px;
 }
 ul.social li.link-twitter a {
   background: url(/images/icon_twitter.svg) no-repeat center 0px;
