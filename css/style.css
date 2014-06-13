@@ -134,7 +134,8 @@ ul.social li.link-behance a {
 	}
 #second article { 
 	width: 630px; 
-	margin-left: 30%; 
+	margin-right:auto;
+	margin-left:auto;
 	margin-top: 180px; 
 	line-height: 1.5em; 
 	font-size:1.25em; 
