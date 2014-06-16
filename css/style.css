@@ -113,7 +113,9 @@ article h2 {
 	margin: 2%; 
 	margin-bottom:10%;  
 	}
-
+.smallscreen{
+	visibility: hidden ;
+	}
 
 #third article {    
 	margin: 5% 0 0 5%; 
@@ -162,12 +164,18 @@ ul.social li a {
 		padding: 0; 
 		}
 #third article {
+		display:none;
 		margin-left:10%;
 		width:80%;
 		margin-top:30%;
 		margin-right:5%;
 		}
-
-	
+.smallscreen{
+	visibility:visible;
+	margin-top:70px;
+	}
+.smallscreen img{
+	margin-bottom:20px;
+}
 
 
