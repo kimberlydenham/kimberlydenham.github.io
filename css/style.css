@@ -24,13 +24,13 @@ article h2 {
   margin: 0;
   padding: 0;
   display: inline-block;
-  margin: 10px 5px;
+  margin: 5px 5px;
   vertical-align: top;
   text-align: center; 
 }
 .social a {
 	display:block;
-	margin:0 15px; 
+	margin:0 10px; 
 	font-family:Arial; 
 	font-size:12px; 
 	display:inline-block; 
@@ -52,14 +52,13 @@ article h2 {
 .social a:hover {
 	background-position:top right; color:red; visibility:visible; text-indent:0}
 
-#first { background:url(../images/bgImg.jpg) 50% 0 no-repeat fixed; height:560px; }
-#second { background:rgba(252,231,216,1.00) 50% 0 no-repeat fixed; height:500px; }
-#third { background: rgba(219,235,233,1.00)50% 0 no-repeat fixed; height:600px; }
-#fourth { background:rgba(115,204,215,1.00) 50% 0 no-repeat fixed; height:600px;}
+#first { background:#ff7260 50% 0 no-repeat fixed; height:530px; }
+#second { background:#9bd7d5 50% 0 no-repeat fixed; height:400px; }
+#third { background: #7567b2 50% 0 no-repeat fixed; height:600px; }
 
 /* Introduction */
 #first .kdlogo { 
-	background: url(../images/logo1.png) 50% 80px no-repeat fixed; 
+	background: url(../images/logo.png) 50% 80px no-repeat fixed; 
 	min-height: 1000px; 
 	padding: 0; 
 	margin: 0; 
@@ -105,7 +104,7 @@ article h2 {
 	width: 630px; 
 	margin-right:auto;
 	margin-left:auto;
-	margin-top: 180px; 
+	margin-top: 100px; 
 	line-height: 1.5em; 
 	font-size:1.25em; 
 	color:#6d6e70; 
@@ -116,36 +115,21 @@ article h2 {
 	}
 
 
-/* Photograph */
 #third article {    
-	width: 300px; 
-	margin: 5% 0 0 65%; 
+	margin: 5% 0 0 5%; 
 	line-height: 1.5em; 
 	position: absolute; 
 	top: 0;
-	color:#6d6e70; 
+	color:#ffffff; 
  
 	}
-#third article p { 
-	margin: 2%; 
-	margin-bottom:10%;  
+#third article img{
+	margin-right:5px;
+	
 	}
 
 
-#fourth article {   
-	width: 300px; 
-	margin-left: 15%; 
-	margin-top:50px;  
-	line-height: 1.5em; 
-	position: absolute; 
-	top: 60px;
-	color:#6d6e70; 
- 
-	}
-#fourth article p { 
-	margin: 2%; 
-	margin-bottom:10%; 
-	}
+
 
 a{
 	text-decoration:none;
@@ -165,29 +149,28 @@ ul.social li a {
 
 
 	
-	#second {
-		padding: 0;
+#second {
 		background-size:auto; 
 		}
-	#second article {
+#second article {
 		margin-left:10%;
 		width:80%;
 		margin-right:5%;
 		margin-top:25%
 		}
-	#third {
+#third {
 		padding: 0; 
 		}
-	#third article {
+#third article {
 		margin-left:10%;
 		width:80%;
 		margin-top:30%;
 		margin-right:5%;
 		}
-	#fourth {
+#fourth {
 		padding: 0; 
 		}
-	#fourth article {
+#fourth article {
 		margin-top:0%;
 		margin-left:10%;
 		width:80%;
