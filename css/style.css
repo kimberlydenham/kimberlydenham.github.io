@@ -17,49 +17,43 @@ article h2 {
 	width: 100%; 
 	position: relative; 
 	margin: 0 auto; 
-	border-top: 1px solid rgba(255,255,255,0.3); 
-	border-bottom: 1px solid rgba(0,0,0,0.4); 
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	}
-ul.social {
-	list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-	}
-ul.social li {
+
+.social {
+  list-style: none;
   margin: 0;
   padding: 0;
   display: inline-block;
-  margin: 20px 5px;
+  margin: 10px 5px;
   vertical-align: top;
+  text-align: center; 
 }
-ul.social li a {
+.social a {
 	display:block;
 	margin:0 15px; 
 	font-family:Arial; 
 	font-size:12px; 
 	display:inline-block; 
-	width: 45px; 
-	height:45px; 
+	width: 50px; 
+	height:50px; 
 	padding-top:50px; 
 	text-indent: -9999px;
 	}
-ul.social li a.dribble {
-	background: url(../images/icon_dribbble.png) top left no-repeat;}
-ul.social li a.behance {
+.social a.dribbble {
+	background: url(../images/icon_dribbble.png) top left no-repeat;}	
+.social a.behance {
 	background: url(../images/icon_behance.png) top left no-repeat;}
-ul.social li a.twitter {
+.social a.twitter {
 	background: url(../images/icon_twitter.png) top left no-repeat;}
-ul.social li a.instagram {
+.social a.instagram {
 	background: url(../images/icon_instagram.png) top left no-repeat;}	
-ul.social li a.mail {
+.social a.mail {
 	background: url(../images/icon_mail.png) top left no-repeat;}	
-ul.social li a:hover {
+.social a:hover {
 	background-position:top right; color:red; visibility:visible; text-indent:0}
 
-#first { background:url(../images/bgImg.jpg) 50% 0 no-repeat fixed; height:660px; }
-#second { background:rgba(252,231,216,1.00) 50% 0 no-repeat fixed; height:600px; }
+#first { background:url(../images/bgImg.jpg) 50% 0 no-repeat fixed; height:560px; }
+#second { background:rgba(252,231,216,1.00) 50% 0 no-repeat fixed; height:500px; }
 #third { background: rgba(219,235,233,1.00)50% 0 no-repeat fixed; height:600px; }
 #fourth { background:rgba(115,204,215,1.00) 50% 0 no-repeat fixed; height:600px;}
 
