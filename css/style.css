@@ -30,7 +30,7 @@ article h2 {
 }
 .social a {
 	display:block;
-	margin:0 10px; 
+	margin:0 5px; 
 	font-family:Arial; 
 	font-size:12px; 
 	display:inline-block; 
@@ -53,8 +53,8 @@ article h2 {
 	background-position:top right; color:red; visibility:visible; text-indent:0}
 
 #first { background:#ff7260 50% 0 no-repeat fixed; height:530px; }
-#second { background:#9bd7d5 50% 0 no-repeat fixed; height:400px; }
-#third { background: #ffffff 50% 0 no-repeat fixed; height:600px; }
+#second { background:#9bd7d5 50% 0 no-repeat fixed; height:450px; }
+#third { background: #ffffff 50% 0 no-repeat fixed; height:400px; }
 
 /* Introduction */
 #first .kdlogo { 
@@ -86,15 +86,6 @@ article h2 {
 	}
 
 
-
-
-#media{
-	margin-left:5px;
-	margin-right:5px;
-	margin-bottom:10px;
-	}
-
-
 	
 /* Background Only */
 #second { 
@@ -118,15 +109,16 @@ article h2 {
 	}
 
 #third article {    
-	margin: 5% 0 0 5%; 
+	margin: 2% 0 0 2%; 
 	line-height: 1.5em; 
 	position: absolute; 
 	top: 0;
 	color:#ffffff; 
+	width:96%;	
  
 	}
 #third article img{
-	margin-right:5px;
+	margin:0%;
 	
 	}
 
@@ -139,6 +131,8 @@ a{
 
 	
 /*smaller resolution-------------*/
+
+
 @media screen and (max-width: 650px) {
 
 
