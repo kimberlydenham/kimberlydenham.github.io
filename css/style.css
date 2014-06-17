@@ -139,7 +139,7 @@ a{
   }
 }
 @media screen and (max-width: 650px) {
-/*#main {overflow-x:hidden;}*/
+#main {overflow-x:hidden;}
 
 #main img {width:300%!important;}
 
