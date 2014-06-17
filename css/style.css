@@ -141,8 +141,6 @@ a{
 @media screen and (max-width: 650px) {
 #main {overflow-x:hidden;}
 
-#main img {width:300%!important;}
-
 ul.social li a {
   display: block;
   width: 30px;
