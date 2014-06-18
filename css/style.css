@@ -1,179 +1,1 @@
-
-
-article h2 {
-	font-family: 'Croissant One', cursive;
-	font-size:3.125em; 
-	margin-top:10%; 
-	margin-left:5%; 
-	margin-bottom:25px;
-	line-height: 1.125em;
-	}
-
-.story { 
-	font-family: 'Merriweather Sans', sans-serif;
-	height: 1000px; 
-	padding: 0; 
-	margin: 0; 
-	width: 100%; 
-	position: relative; 
-	margin: 0 auto; 
-	}
-
-.social {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  margin: 5px 5px;
-  vertical-align: top;
-  text-align: center; 
-}
-.social a {
-	display:block;
-	margin:0 5px; 
-	font-family:Arial; 
-	font-size:12px; 
-	display:inline-block; 
-	width: 50px; 
-	height:50px; 
-	padding-top:50px; 
-	text-indent: -9999px;
-	}
-.social a.dribbble {
-	background: url(../images/icon_dribbble.png) top left no-repeat;}	
-.social a.behance {
-	background: url(../images/icon_behance.png) top left no-repeat;}
-.social a.twitter {
-	background: url(../images/icon_twitter.png) top left no-repeat;}
-.social a.instagram {
-	background: url(../images/icon_instagram.png) top left no-repeat;}	
-.social a.mail {
-	background: url(../images/icon_mail.png) top left no-repeat;}	
-.social a:hover {
-	background-position:top right; color:red; visibility:visible; text-indent:0}
-
-#first { background:#ff7260 50% 0 no-repeat fixed; height:530px; }
-#second { background:#9bd7d5 50% 0 no-repeat fixed; height:450px; }
-#third { background: #ffffff 50% 0 no-repeat fixed; height:400px; }
-
-/* Introduction */
-#first .kdlogo { 
-	background: url(../images/logo.png) 50% 80px no-repeat fixed; 
-	min-height: 1000px; 
-	padding: 0; 
-	margin: 0; 
-	width: 100%; 
-	max-width: 1920px; 
-	position: relative; 
-	margin: 0 auto; 
-	}
-	
-
-
-#first article { 
-	width: 100%; 
-	top: 400px; 
-	position: absolute; 
-	text-align: center; 
-	}
-#first article p,
-#first article a { 
-	color: #ccc; 
-	}
-#first article a { 
-	text-decoration: none; 
-	}
-#first article a:hover { 
-	color: #fff; 
-	}
-
-
-	
-/* Background Only */
-#second { 
-	padding: 50px 0;
-	}
-#second article { 
-	width: 630px; 
-	margin-right:auto;
-	margin-left:auto;
-	margin-top: 100px; 
-	line-height: 1.5em; 
-	font-size:1.25em; 
-	color:#6d6e70; 
-	}
-#second article p { 
-	margin: 2%; 
-	margin-bottom:10%;  
-	}
-.smallscreen{
-	visibility: hidden ;
-	}
-
-#third article {    
-	margin: 2% 0px 0px 2%; 
-	line-height: 1.5em; 
-	position: absolute; 
-	top: 0;
-	color:#ffffff; 
-	width:96%;	
- 
-	}
-#third article img{
-	margin:0%;
-	
-	}
-
-
-
-
-a{
-	text-decoration:none;
-	}
-
-	
-/*smaller resolution-------------*/
-@media (max-width: 1200px) {
-.textbox {
-	
-  }
-}
-@media screen and (max-width: 650px) {
-#main {overflow-x:hidden;}
-
-ul.social li a {
-  display: block;
-  width: 30px;
-  height: 30px;
-}
-
-
-	
-#second {
-		background-size:auto; 
-		}
-#second article {
-		margin-left:10%;
-		width:80%;
-		margin-right:5%;
-		margin-top:10%;
-		}
-#third {
-		padding: 0; 
-		}
-#third article {
-		display:none;
-		margin-left:10%;
-		width:80%;
-		margin-top:30%;
-		margin-right:5%;
-		}
-.smallscreen{
-	visibility:visible;
-	margin-top:70px;
-	}
-.smallscreen img{
-	margin-bottom:20px;
-}
-
-
+body img {max-width:100%; height:auto;}body div {line-height:0;}article h2 {	font-family: 'Croissant One', cursive;	font-size:3.125em; 	margin-top:10%; 	margin-left:5%; 	margin-bottom:25px;	line-height: 1.125em;	}.story { 	font-family: 'Merriweather Sans', sans-serif;	height: 1000px; 	padding: 0; 	margin: 0; 	width: 100%; 	position: relative; 	margin: 0 auto; 	}.social {  list-style: none;  margin: 0;  padding: 0;  display: inline-block;  margin: 5px 5px;  vertical-align: top;  text-align: center; }.social a {	display:block;	margin:0 5px; 	font-family:Arial; 	font-size:12px; 	display:inline-block; 	width: 50px; 	height:50px; 	padding-top:50px; 	text-indent: -9999px;	}.social a.dribbble {	background: url(../images/icon_dribbble.png) top left no-repeat;}	.social a.behance {	background: url(../images/icon_behance.png) top left no-repeat;}.social a.twitter {	background: url(../images/icon_twitter.png) top left no-repeat;}.social a.instagram {	background: url(../images/icon_instagram.png) top left no-repeat;}	.social a.mail {	background: url(../images/icon_mail.png) top left no-repeat;}	.social a:hover {	background-position:top right; color:red; visibility:visible; text-indent:0}#first { background:#ff7260 50% 0 no-repeat fixed; height:530px; }#second { background:#9bd7d5 50% 0 no-repeat fixed; height:450px; }#third { background: #ffffff 50% 0 no-repeat fixed; }/* Introduction */#first .kdlogo { 	background: url(../images/logo.png) 50% 80px no-repeat fixed; 	min-height: 1000px; 	padding: 0; 	margin: 0; 	width: 100%; 	max-width: 1920px; 	position: relative; 	margin: 0 auto; 	}#first .kdlogo.tablet.mobile {background: url(../images/logo.png) 50% 80px no-repeat scroll;}#first article { 	width: 100%; 	top: 400px; 	position: absolute; 	text-align: center; 	}#first article p,#first article a { 	color: #ccc; 	}#first article a { 	text-decoration: none; 	}#first article a:hover { 	color: #fff; 	}	/* Background Only */#second { 	padding: 50px 0;	}#second article { 	width: 630px; 	margin-right:auto;	margin-left:auto;	margin-top: 100px; }#second article p { 	line-height: 1.5em; 	font-size:1.25em; 	color:#6d6e70;	margin: 2%; 	margin-bottom:10%;  	}.smallscreen{	display:none;	}#third article {    	margin: 2% 0px 0px 2%; 	position: absolute; 	top: 0;	width:96%;	 	}#third article p {    	line-height: 1.5em; 	color:#ffffff; }a{	text-decoration:none;	}div.clear {clear:both; height:0; width:0;}#third article div.column {width:32%; float:left; margin:0 1% 1% 0;}.column.last {margin:0 0 1% 0;}div.column img {width:100%;}	    .tablet {display:none;}.mobile {display:none;}.desktop {display:inline-block;}/*smaller resolution-------------*/@media (max-width: 1200px) {.textbox {	  }.desktop {display:none;}.mobile {display:none;}.tablet {display:inline-block;}}@media screen and (max-width: 650px) {.desktop {display:none;}.tablet {display:none;}.mobile {display:inline-block;}#main {overflow-x:hidden;}ul.social li a {  display: block;  width: 30px;  height: 30px;}	#second {		background-size:auto; 		}#second article {		margin-left:10%;		width:80%;		margin-right:5%;		margin-top:10%;		}#third {		padding: 0; 		}#third article {		display:none;		margin-left:10%;		width:80%;		margin-top:30%;		margin-right:5%;		}.smallscreen{	visibility:visible;	margin-top:70px;	}.smallscreen img{	margin-bottom:20px;}
