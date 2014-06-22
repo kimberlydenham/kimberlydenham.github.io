@@ -1,617 +1,1 @@
-@charset "UTF-8";
-
-
-/* CSS Document */
-
-
-/*
-	Variable Grid System (Fluid Version).
-	Learn more ~ http://www.spry-soft.com/grids/
-	Based on 960 Grid System - http://960.gs/ & 960 Fluid - http://www.designinfluences.com/
-
-	Licensed under GPL and MIT.
-*/
-@font-face {font-family: "Champagne and Limousines copy"; src:url(fonts/Champagne%20&%20Limousines%20copy.ttf)
-}
-
-
- 
- 
-body{
-	background-position: 0% 0%;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	font-family:Champagne and Limousines copy;
- }
-
-#slideshow{
-	z-index: -15;
-	float: left;
-	position: fixed;
-	padding: 0
-}
-#slideshow img{
-	width: 100%;
-	min-height: 1300px;
-}
-
-div {
-	font-family: Champagne and Limousines copy;
-	font-size: 1em;
-}
-
-
-a{
-	color: #e7dbd3;
-	text-decoration: none;
-}
-
-a:hover{
-	color:#242E4F;
-
-}
-
-.address{
-	font-size:.75em;
-	padding-left:5px;
-	padding-right:5px;
-	text-align:center;
-	}
-
-#logo{
-	margin-top:20px;
-	
-	}
-.home {
-	margin-top: 120px;
-	position:fixed;
-	font-size: .85em;
-
-}
-
-
-#menuTitle {
-	border-bottom: 1px solid #666666;
-	padding-bottom: 30px;
-	padding-top: 0px;
-}
-
-.grid_10{
-	background-color: rgba(235,235,235,0.92);
-}
-
-.turtleLogo{
-	float: right;
-	padding-top: 17px;
-	padding-right: 17px;
-	
-}
-
-
-
-
-h1{
-	font-weight: bold;
-	text-shadow: 1px 1px 2px #999999;
-	font-variant: small-caps;
-	text-align: left;		
-	padding-left: 84px;
-}
-
-h2{
-	color:#242E4F;
-	font-variant: small-caps;	
-}
-
-h3{ 
-	align: center;
-}
-
-.menu {
-	margin-top: 150px;
-	position: fixed;
-	font-size: .85em;
-}
-
-
-.bar{
-	margin-top: 180px;
-	position: fixed;
-	font-size: .85em;
-
-	
-}
-
-.events{
-	margin-top: 210px;
-	position: fixed;
-	font-size: .85em;
-
-}
-
-.address{
-	margin-top: 20px;
-	letter-spacing: .1em;
-	line-height: 1em;
-	color: #e7dbd3;
-}
-
-li{
-	display: block;
-	font-family: Champagne and Limousines copy;
-	font-size: large;
-	font-weight: lighter;
-	letter-spacing: 0.1em;
-	margin-left:-14px;
-	margin-top:10px;
-}
-.navturtle{
-	padding-top:100px;
-}
-
- 
-#logo {
-	position: static;
-	margin-left: 280px;	
-}
-
- .moarBottomSpaycse{
-	margin-bottom:80px;
- }
-td{
-	alignment-baseline: baseline;
-	vertical-align: baseline;
-}
-#Bar {
-	border-bottom: 1px solid #666666;
-	padding-bottom: 30px;
-	padding-top: 0px;
-}
-
-#catering {
-	padding-left: 65px;
-	padding-right: 65px;
-}
-
-#footer {
-	background-color: rgb(120,108,99);
-	width: 781px;
-	height: 140px;
- }
- 
-.hours{
-	color:#e7dbd3;
-	padding-top:4px;
-	color:#e7dbd3;
-	padding-bottom:3px;
-	padding-top:4;
-}
-#google {
-	top: 8px;
-	left: 310px;
-	position:relative;
-}
-#google img {
-	position: absolute;
-	left: 0;
-	-webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-}
-
-#google img.top:hover{
-	opacity: 0;
-}
-
-#facebook {
-	top: 8px;
-	left: 367px;
-	position:relative;
-}
-#facebook img {
-	position: absolute;
-	left: 0;
-	-webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-}
-
-#facebook img.top:hover{
-	opacity: 0;
-}
-
-#twitter {
-	top: 8px;
-	left: 424px;
-	position:relative;
-}
-#twitter img {
-	position: absolute;
-	left: 0;
-	-webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-}
-
-#twitter img.top:hover{
-	opacity: 0;
-}
-
-
-
-
-
-
-/* Containers
-----------------------------------------------------------------------------------------------------*/
-.container_12 {
-	width: 960px;
-	margin-left: 0px;
-	margin-right: auto;
-}
-
-/* Grid >> Global
-----------------------------------------------------------------------------------------------------*/
-
-.grid_1,
-.grid_2,
-.grid_3,
-.grid_4,
-.grid_5,
-.grid_6,
-.grid_7,
-.grid_8,
-.grid_9,
-.grid_10,
-.grid_11,
-.grid_12 {
-	display: inline;
-	position: relative;
-	margin-left: 0%;
-	margin-right: 0%;
-	float: left;
-}
-
-/* Grid >> Children (Alpha ~ First, Omega ~ Last)
-----------------------------------------------------------------------------------------------------*/
-
-.alpha {
-	margin-left: 0;
-}
-
-.omega {
-	margin-right: 0;
-}
-
-/* Grid >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .grid_1 {
-	width: 6.333%;
-}
-
-.container_12 .grid_2 {
-	width: 14.667%;
-	background-color: #786c63;
-	height: 300px;
-	background-repeat: no-repeat;
-	position: fixed;
-	z-index: 0;
-	width: 138px;
-	position: fixed;
-	left: 30px;
-	padding-top: 20px;
-}
-
-.container_12 .grid_3 {
-	width: 23.0%;
-}
-
-.container_12 .grid_4 {
-	width: 31.333%;
-	
-}
-
-.container_12 .grid_5 {
-	width: 39.667%;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.container_12 .grid_6 {
-	width:48.0%;
-}
-
-.container_12 .grid_7 {
-	width:56.333%;
-}
-
-.container_12 .grid_8 {
-	width: 64.667%;
-}
-
-.container_12 .grid_9 {
-	width:73.0%;
-}
-
-.container_12 .grid_10 {
-	width: 81.333%;
-	float: left;
-	background-color: rgba(235,235,235,0.92);
-	background-size: auto auto;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: #786c63;
-	/* [disabled]margin-left: 0px; */
-	/* [disabled]margin-right: 0px; */
-	padding-right: 0px;
-	padding-left: 0px;
-	position: relative;
-	left: 128px;
-	z-index: -10;
-	padding-top: 0px;
-	-webkit-box-shadow: 3px -3px 3px #BEBEBE;
-	box-shadow: 4px -4px 3px rgba(163,163,163,.2);
-	border-radius: 2px;
-}
-
-.container_12 .grid_11 {
-	width: 89.667%;
-	max-height: 200px;
-}
-
-.container_12 .grid_12 {
-	width:98.0%;
-}
-
-
-
-/* Prefix Extra Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .prefix_1 {
-	padding-left:8.333%;
-}
-
-.container_12 .prefix_2 {
-	padding-left:16.667%;
-}
-
-.container_12 .prefix_3 {
-	padding-left:25.0%;
-}
-
-.container_12 .prefix_4 {
-	padding-left: 33.333%;
-	left: 1px;
-	right: 1px;
-	text-align: center;
-}
-
-.container_12 .prefix_5 {
-	padding-left:41.667%;
-}
-
-.container_12 .prefix_6 {
-	padding-left:50.0%;
-}
-
-.container_12 .prefix_7 {
-	padding-left:58.333%;
-}
-
-.container_12 .prefix_8 {
-	padding-left:66.667%;
-	
-}
-
-.container_12 .prefix_9 {
-	padding-left:75.0%;
-}
-
-.container_12 .prefix_10 {
-	padding-left:83.333%;
-}
-
-.container_12 .prefix_11 {
-	padding-left:91.667%;
-}
-
-
-
-/* Suffix Extra Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .suffix_1 {
-	padding-right:8.333%;
-}
-
-.container_12 .suffix_2 {
-	padding-right:16.667%;
-}
-
-.container_12 .suffix_3 {
-	padding-right:25.0%;
-}
-
-.container_12 .suffix_4 {
-	padding-right:33.333%;
-}
-
-.container_12 .suffix_5 {
-	padding-right:41.667%;
-}
-
-.container_12 .suffix_6 {
-	padding-right:50.0%;
-}
-
-.container_12 .suffix_7 {
-	padding-right:58.333%;
-}
-
-.container_12 .suffix_8 {
-	padding-right:66.667%;
-}
-
-.container_12 .suffix_9 {
-	padding-right:75.0%;
-}
-
-.container_12 .suffix_10 {
-	padding-right:83.333%;
-}
-
-.container_12 .suffix_11 {
-	padding-right:91.667%;
-}
-
-
-
-/* Push Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .push_1 {
-	left:8.333%;
-}
-
-.container_12 .push_2 {
-	left:16.667%;
-}
-
-.container_12 .push_3 {
-	left:25.0%;
-}
-
-.container_12 .push_4 {
-	left:33.333%;
-}
-
-.container_12 .push_5 {
-	left:41.667%;
-}
-
-.container_12 .push_6 {
-	left:50.0%;
-}
-
-.container_12 .push_7 {
-	left:58.333%;
-}
-
-.container_12 .push_8 {
-	left:66.667%;
-}
-
-.container_12 .push_9 {
-	left:75.0%;
-}
-
-.container_12 .push_10 {
-	left:83.333%;
-}
-
-.container_12 .push_11 {
-	left:91.667%;
-}
-
-
-
-/* Pull Space >> 12 Columns
-----------------------------------------------------------------------------------------------------*/
-
-
-.container_12 .pull_1 {
-	left:-8.333%;
-}
-
-.container_12 .pull_2 {
-	left:-16.667%;
-}
-
-.container_12 .pull_3 {
-	left:-25.0%;
-}
-
-.container_12 .pull_4 {
-	left:-33.333%;
-}
-
-.container_12 .pull_5 {
-	left:-41.667%;
-}
-
-.container_12 .pull_6 {
-	left:-50.0%;
-}
-
-.container_12 .pull_7 {
-	left:-58.333%;
-}
-
-.container_12 .pull_8 {
-	left:-66.667%;
-}
-
-.container_12 .pull_9 {
-	left:-75.0%;
-}
-
-.container_12 .pull_10 {
-	left:-83.333%;
-}
-
-.container_12 .pull_11 {
-	left:-91.667%;
-}
-
-
-
-
-/* Clear Floated Elements
-----------------------------------------------------------------------------------------------------*/
-
-/* http://sonspring.com/journal/clearing-floats */
-
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
-
-.clearfix:after {
-	clear: both;
-	content: ' ';
-	display: block;
-	font-size: 0;
-	line-height: 0;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-.clearfix {
-	display: inline-block;
-}
-
-* html .clearfix {
-	height: 1%;
-}
-
-.clearfix {
-	display: block;
-}
+@charset "UTF-8";/* CSS Document *//*	Variable Grid System (Fluid Version).	Learn more ~ http://www.spry-soft.com/grids/	Based on 960 Grid System - http://960.gs/ & 960 Fluid - http://www.designinfluences.com/	Licensed under GPL and MIT.*/@font-face {font-family: "Champagne and Limousines copy"; src:url(fonts/Champagne%20&%20Limousines%20copy.ttf)}  body{	background-position: 0% 0%;	margin:0;	font-family:Champagne and Limousines copy; }#slideshow{	z-index: -15;	float: left;	position: fixed;	padding: 0}#slideshow img{	width: 100%;	min-height: auto;    min-width:1600px;}div {	font-family: Champagne and Limousines copy;	font-size: 1em;}a{	color: #e7dbd3;	text-decoration: none;}a:hover{	color:#242E4F;}.address{	font-size:.75em;	padding-left:5px;	padding-right:5px;	text-align:center;	}#logo{	margin-top:20px;		}.home {	margin-top: 120px;	position:fixed;	font-size: .85em;}#menuTitle {	border-bottom: 1px solid #666666;	padding-bottom: 30px;	padding-top: 0px;}.grid_10{	background-color: rgba(235,235,235,0.92);}.turtleLogo{	float: right;	padding-top: 17px;	padding-right: 17px;	}h1{	font-weight: bold;	text-shadow: 1px 1px 2px #999999;	font-variant: small-caps;	text-align: left;			padding-left: 84px;}h2{	color:#242E4F;	font-variant: small-caps;	}h3{ 	align: center;}.menu {	margin-top: 150px;	position: fixed;	font-size: .85em;}.bar{	margin-top: 180px;	position: fixed;	font-size: .85em;	}.events{	margin-top: 210px;	position: fixed;	font-size: .85em;}.address{	margin-top: 20px;	letter-spacing: .1em;	line-height: 1em;	color: #e7dbd3;}li{	display: block;	font-family: Champagne and Limousines copy;	font-size: large;	font-weight: lighter;	letter-spacing: 0.1em;	margin-left:-14px;	margin-top:10px;}.navturtle{	padding-top:100px;} #logo {	position: static;	margin-left: 280px;	} .moarBottomSpaycse{	margin-bottom:80px; }td{	alignment-baseline: baseline;	vertical-align: baseline;}#Bar {	border-bottom: 1px solid #666666;	padding-bottom: 30px;	padding-top: 0px;}#catering {	padding-left: 65px;	padding-right: 65px;}#footer {	background-color: rgb(120,108,99);	width: 781px;	height: 140px; } .hours{	color:#e7dbd3;	padding-top:4px;	color:#e7dbd3;	padding-bottom:3px;	padding-top:4;}#google {	top: 8px;	left: 310px;	position:relative;}#google img {	position: absolute;	left: 0;	-webkit-transition: opacity .5s ease-in-out;    -moz-transition: opacity .5s ease-in-out;    -o-transition: opacity .5s ease-in-out;    transition: opacity .5s ease-in-out;}#google img.top:hover{	opacity: 0;}#facebook {	top: 8px;	left: 367px;	position:relative;}#facebook img {	position: absolute;	left: 0;	-webkit-transition: opacity .5s ease-in-out;    -moz-transition: opacity .5s ease-in-out;    -o-transition: opacity .5s ease-in-out;    transition: opacity .5s ease-in-out;}#facebook img.top:hover{	opacity: 0;}#twitter {	top: 8px;	left: 424px;	position:relative;}#twitter img {	position: absolute;	left: 0;	-webkit-transition: opacity .5s ease-in-out;    -moz-transition: opacity .5s ease-in-out;    -o-transition: opacity .5s ease-in-out;    transition: opacity .5s ease-in-out;}#twitter img.top:hover{	opacity: 0;}/* Containers----------------------------------------------------------------------------------------------------*/.container_12 {	width: 960px;	margin-left: 0px;	margin-right: auto;}/* Grid >> Global----------------------------------------------------------------------------------------------------*/.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12 {	display: inline;	position: relative;	margin-left: 0%;	margin-right: 0%;	float: left;}/* Grid >> Children (Alpha ~ First, Omega ~ Last)----------------------------------------------------------------------------------------------------*/.alpha {	margin-left: 0;}.omega {	margin-right: 0;}/* Grid >> 12 Columns----------------------------------------------------------------------------------------------------*/.container_12 .grid_1 {	width: 6.333%;}.container_12 .grid_2 {	width: 14.667%;	background-color: #786c63;	height: 300px;	background-repeat: no-repeat;	position: fixed;	z-index: 0;	width: 138px;	position: fixed;	left: 30px;	padding-top: 20px;}.container_12 .grid_3 {	width: 23.0%;}.container_12 .grid_4 {	width: 31.333%;	}.container_12 .grid_5 {	width: 39.667%;	padding-left: 20px;	padding-right: 20px;}.container_12 .grid_6 {	width:48.0%;}.container_12 .grid_7 {	width:56.333%;}.container_12 .grid_8 {	width: 64.667%;}.container_12 .grid_9 {	width:73.0%;}.container_12 .grid_10 {	width: 81.333%;	float: left;	background-color: rgba(235,235,235,0.92);	background-size: auto auto;	background-repeat: no-repeat;	background-attachment: fixed;	color: #786c63;	/* [disabled]margin-left: 0px; */	/* [disabled]margin-right: 0px; */	padding-right: 0px;	padding-left: 0px;	position: relative;	left: 128px;	z-index: -10;	padding-top: 0px;	-webkit-box-shadow: 3px -3px 3px #BEBEBE;	box-shadow: 4px -4px 3px rgba(163,163,163,.2);	border-radius: 2px;}.container_12 .grid_11 {	width: 89.667%;	max-height: 200px;}.container_12 .grid_12 {	width:98.0%;}/* Prefix Extra Space >> 12 Columns----------------------------------------------------------------------------------------------------*/.container_12 .prefix_1 {	padding-left:8.333%;}.container_12 .prefix_2 {	padding-left:16.667%;}.container_12 .prefix_3 {	padding-left:25.0%;}.container_12 .prefix_4 {	padding-left: 33.333%;	left: 1px;	right: 1px;	text-align: center;}.container_12 .prefix_5 {	padding-left:41.667%;}.container_12 .prefix_6 {	padding-left:50.0%;}.container_12 .prefix_7 {	padding-left:58.333%;}.container_12 .prefix_8 {	padding-left:66.667%;	}.container_12 .prefix_9 {	padding-left:75.0%;}.container_12 .prefix_10 {	padding-left:83.333%;}.container_12 .prefix_11 {	padding-left:91.667%;}/* Suffix Extra Space >> 12 Columns----------------------------------------------------------------------------------------------------*/.container_12 .suffix_1 {	padding-right:8.333%;}.container_12 .suffix_2 {	padding-right:16.667%;}.container_12 .suffix_3 {	padding-right:25.0%;}.container_12 .suffix_4 {	padding-right:33.333%;}.container_12 .suffix_5 {	padding-right:41.667%;}.container_12 .suffix_6 {	padding-right:50.0%;}.container_12 .suffix_7 {	padding-right:58.333%;}.container_12 .suffix_8 {	padding-right:66.667%;}.container_12 .suffix_9 {	padding-right:75.0%;}.container_12 .suffix_10 {	padding-right:83.333%;}.container_12 .suffix_11 {	padding-right:91.667%;}/* Push Space >> 12 Columns----------------------------------------------------------------------------------------------------*/.container_12 .push_1 {	left:8.333%;}.container_12 .push_2 {	left:16.667%;}.container_12 .push_3 {	left:25.0%;}.container_12 .push_4 {	left:33.333%;}.container_12 .push_5 {	left:41.667%;}.container_12 .push_6 {	left:50.0%;}.container_12 .push_7 {	left:58.333%;}.container_12 .push_8 {	left:66.667%;}.container_12 .push_9 {	left:75.0%;}.container_12 .push_10 {	left:83.333%;}.container_12 .push_11 {	left:91.667%;}/* Pull Space >> 12 Columns----------------------------------------------------------------------------------------------------*/.container_12 .pull_1 {	left:-8.333%;}.container_12 .pull_2 {	left:-16.667%;}.container_12 .pull_3 {	left:-25.0%;}.container_12 .pull_4 {	left:-33.333%;}.container_12 .pull_5 {	left:-41.667%;}.container_12 .pull_6 {	left:-50.0%;}.container_12 .pull_7 {	left:-58.333%;}.container_12 .pull_8 {	left:-66.667%;}.container_12 .pull_9 {	left:-75.0%;}.container_12 .pull_10 {	left:-83.333%;}.container_12 .pull_11 {	left:-91.667%;}/* Clear Floated Elements----------------------------------------------------------------------------------------------------*//* http://sonspring.com/journal/clearing-floats */.clear {	clear: both;	display: block;	overflow: hidden;	visibility: hidden;	width: 0;	height: 0;}/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */.clearfix:after {	clear: both;	content: ' ';	display: block;	font-size: 0;	line-height: 0;	visibility: hidden;	width: 0;	height: 0;}.clearfix {	display: inline-block;}* html .clearfix {	height: 1%;}.clearfix {	display: block;}
